@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: null_byte_hstore_development
+  port: <%= ENV["BOXEN_POSTGRESQL_PORT"] || 5432 %>
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: null_byte_hstore_test
+  port: <%= ENV["BOXEN_POSTGRESQL_PORT"] || 5432 %>
+  host: localhost

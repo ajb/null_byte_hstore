@@ -1,5 +1,5 @@
 1. Update `database.yml` with Postgres connection deets
-2. `bundle install`, `rake db:create`, `rake db:migrate`
+2. `bundle install && rake db:create && rake db:migrate && rake db:test:prepare`
 3. `rake test`
 
 ```
